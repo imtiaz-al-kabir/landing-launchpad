@@ -27,6 +27,9 @@ body {
   background-position: left bottom;
   transition: all 0.4s ease-in-out;
 }
+.btn-lg {
+  height: 62px;
+}
 
 .btn:hover {
   background-position: right bottom;
@@ -101,6 +104,8 @@ header {
   margin-top: 23px;
 }
 
+/* Productive section */
+
 .productive-container {
   width: 1140px;
   /* height: 306px; */
@@ -137,6 +142,8 @@ header {
 .productive-item p {
   font-size: 20px;
 }
+
+/* feedback */
 
 .feedback {
   width: 1140px;
@@ -196,36 +203,38 @@ header {
 
 .focus-container {
   width: 1140px;
-  height: 697px;
   margin: 0 auto;
   background-color: #ffffff;
   display: flex;
-  /* flex-direction: column;
-  justify-content: space-around;
-  align-items: center; */
   border-radius: 14px;
   display: block;
 }
-.focus-img {
-  width: 840px;
-  height: 364px;
-  border-radius: 48px;
-  margin: 30px 150px;
-}
-.focus-container h1 {
+
+.focus-content h1 {
   font-size: 50px;
   margin-bottom: 20px;
   padding-top: 70px;
 }
-.focus-container p {
-  margin-bottom: 20px;
+.focus-content p {
+  width: 487px;
+  text-align: center;
+}
+
+.focus-img {
+  width: 840px;
+  height: 380px;
+  border-radius: 48px;
+  margin: 30px 150px 70px 150px;
 }
 .focus-container button {
   text-align: center;
 }
 .focus-content {
   margin: 0 auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 /* contact section */
@@ -307,7 +316,7 @@ header {
   font-size: 80px;
   font-weight: 900;
   /* text-align: center; */
-  padding: 10px 120px 0px 120px;
+  padding: 10px 120px 0px 135px;
 }
 .link-ul {
   display: flex;
