@@ -132,3 +132,58 @@ header {
 .productive-item p {
   font-size: 20px;
 }
+
+.feedback {
+  width: 1140px;
+  margin: 130px auto;
+  /* padding: 40px 0; */
+}
+.feedback h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #1c1c1c;
+  text-align: center;
+}
+.feedback-container {
+  display: flex;
+  gap: 20px;
+}
+.users-feedback {
+  width: 366px;
+  height: 243px;
+  background-color: white;
+  border-radius: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  padding: 0 24px;
+}
+.users-feedback-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.users-feedback-card img {
+  border-radius: 50%;
+}
+
+.details {
+  /* margin: 12px 0; */
+  margin-bottom: 24px;
+}
+.details h4 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.img {
+  padding: 24px 0;
+}
+.name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+.date {
+  font-size: 12px;
+  color: #888;
+}
